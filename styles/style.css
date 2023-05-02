@@ -1,0 +1,280 @@
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+
+
+}
+main{
+             flex: 1 0 auto;
+}
+
+#hero-section{
+               min-height: 110vh;
+               background-color: #474747;
+               color: white;
+               width: 100%;
+
+}
+
+
+#navbar{
+    background-color: #474747;
+    border-bottom: 1px solid white;
+    font-family: jost;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+/* #leading-section{
+         background-image: url('..//assets/images/path1.png');
+         background-position: center center;
+         background-repeat: no-repeat;
+} */
+
+#codeshaper{
+    font-family: jost;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+}
+#consulting{
+    font-family: jost;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+#discover{
+    /* font-family: jost; */
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.61px;
+    line-height:20px;
+    color: white;
+    padding: 20px;
+    border: 0;
+    background-color:  #3C72FC;
+              
+}
+
+
+
+#heading {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+  width: 500px;
+  height: 300px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  list-style: none;
+  width: 1500px;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px; 
+  text-align: left;
+   line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  left: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 0 2px 2px 0;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+
+
+
+#real-word{
+           background-color: #0F0D1D;
+           min-height: 120vh;
+}
+
+#cd{
+        outline: 0;
+        border: 0;
+}
+#cd :hover{
+         background-color: #3C72FC;
+}
+
+.form-box{
+    padding: 50px;
+    background-color: black;
+ 
+
+}
+.form-box input{
+    font-family: jost;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 15px 10px;
+}
+.form-box button{
+             background-color: 
+             #3C72FC;
+             padding: 15px 20px;
+             font-weight: 20px;
+             cursor: pointer;
+             outline: 0;
+             border: 0;
+}
+.sm-icons{
+            flex-direction: row;
+}
+.sm-icons .nav-link{
+         padding-right: 1em;
+}
+i{
+           font-size: 30px;
+           color: white;
+}
+h5{
+    font-family: jost;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+                     
+}
+@media screen and (max-width: 450px) {
+  #consulting {
+      font-size: 30px;
+      line-height: 35px;
+      margin-left: 0;
+
+     
+    }
+    #hero-section{
+            min-height: 90vh;
+            margin-top: 0;
+            margin-left: 0;
+    }
+   
+  }
+  @media only screen and (max-width: 576px) {
+    #cf {
+      flex-wrap: wrap;
+    }
+    #crd {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* styles for screens with a width between 768px and 991px */
+    #cards-main {
+      padding: 30px!important;
+      
+      
+    }
+   #title{
+               font-size: 10px!important;
+               font-family: jost!important;
+               font-weight: 800!important;
+
+   }
+   #check{
+                    font-size: 12px;
+   }
+
+   #text{
+                  font-size: 12px!important;
+                  font-weight: 700;
+   }
+   #usa{
+               border-bottom: 1px solid white;
+   }
+    #end{
+           border-bottom: 1px solid white;
+    }
+  }
+ 
+  @media only screen and (min-width:576px) and(max-width:767px){
+            #end{
+                    border-top: 1px solid white;
+            }
+  }
+  @media only screen and (max-width: 399px)  {
+    /* styles for screens with a width between 768px and 991px */
+    #cards-main {
+                        padding: 0px!important;
+      
+      
+    }
+   #title{
+               font-size: 10px!important;
+               font-family: jost!important;
+               font-weight: 800!important;
+             
+
+   }
+  }
+ #buildin:hover{
+                         background-color: #0F0D1D;
+ }
+ @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  #bdr{
+         border: none!important;
+           
+  }
+ }
